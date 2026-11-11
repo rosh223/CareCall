@@ -1,0 +1,10 @@
+
+flask
+requests
+numpy
+pandas
+scikit-learn
+openai
+fastapi
+uvicorn
+httpx

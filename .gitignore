@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env*
+
+# FastAPI/Starlette
+instance/
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Migrations
+migrations/
+
+# Static/media files
+staticfiles/
+media/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Others
+*.bak
+*.swp
+*.swo
+
+# Node modules (if using frontend)
+node_modules/
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Pydantic compiled files
+*.pydantic/
+
+# Ignore secrets
+secrets.json
+
+# Ignore data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+data/
+
+# Ignore coverage reports
+coverage.xml
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
